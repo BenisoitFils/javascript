@@ -1,0 +1,40 @@
+/* Estilos para el carrito de compras */
+
+#carrito {
+    border: 2px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#producto {
+    margin-bottom: 20px;
+}
+
+#producto h3 {
+    margin: 0;
+}
+
+#precio {
+    font-weight: bold;
+}
+
+button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#total {
+    font-weight: bold;
+    font-size: 1.2em;
+}
